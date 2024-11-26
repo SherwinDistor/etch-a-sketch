@@ -9,7 +9,6 @@ function generateGrid() {
     // Get input value and set variable to gridSize
     let gridSize = parseInt(document.querySelector(".grid-size").value);
     
-
     // Use new height to update square width and heigh to fit the number of squares
     const newSquareWidth = containerWidth / gridSize - 2;
 
