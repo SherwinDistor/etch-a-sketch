@@ -1,6 +1,6 @@
 .grid-container {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     margin: auto;
     border: 1px solid gray;
     display: flex;
@@ -10,8 +10,8 @@
 .square {
     margin: 0;
     padding: 0;
-    height: 23px;
-    width: 23px;
+    width: 18;
+    height: 18;
     border: 1px solid gray;
 }
 
