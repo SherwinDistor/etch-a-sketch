@@ -45,13 +45,10 @@ const createSquare = (gridSize, newSquareWidth) => {
     }
 }
 
-// Add button functionality
-btnGridSize.addEventListener("click", generateGrid)
-
 function drawSquares() {
     // Grab the squares created from doc
     const drawSquare = document.querySelectorAll(".square");
-
+    
     // Iterate through all squares and add an event listener
     drawSquare.forEach((square) => {
         
@@ -62,4 +59,5 @@ function drawSquares() {
     });
 };
 
-
+// Add button functionality
+btnGridSize.addEventListener("click", generateGrid)
