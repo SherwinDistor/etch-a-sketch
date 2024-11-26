@@ -10,7 +10,7 @@ const createSquare = () => {
         const square = document.createElement("div");
 
         // Take the reference and set .classList.add(square)
-        square.classList.add("square")
+        square.classList.toggle("square")
 
         // parentNode.appendChild() to append as the last child of the parentNode
         gridContainer.appendChild(square);
@@ -21,3 +21,15 @@ const createSquare = () => {
 }
 
 createSquare()
+
+// Grab the squares created from doc
+const drawSquare = document.querySelectorAll(".square");
+
+// Iterate through all squares and add an event listener
+drawSquare.forEach((square) => {
+
+    // On clock toggle draw class
+    square.addEventListener("mouseover", () => {
+        square.classList.add("draw");
+    });
+});

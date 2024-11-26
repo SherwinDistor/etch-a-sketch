@@ -14,3 +14,7 @@
     width: 23px;
     border: 1px solid gray;
 }
+
+.draw {
+    background-color: gray;
+}
