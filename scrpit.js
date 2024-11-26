@@ -1,4 +1,5 @@
 // Grab grid-container from document
+const gridContainer = document.querySelector(".grid-container");
 
 // Create a function that takes in size and creates divs
 
