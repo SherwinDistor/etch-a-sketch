@@ -5,7 +5,7 @@ const gridContainer = document.querySelector(".grid-container");
 const createSquare = () => {
     // Create a while loop that will run 256 times to create a 16 x 16 grid
     let i = 1;
-    while (i <= 30) {
+    while (i <= 256) {
         // Use createElement to create a div with the reference variable square
         const square = document.createElement("div");
 
